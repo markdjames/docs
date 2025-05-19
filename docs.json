@@ -17,22 +17,22 @@
                     {
                         "group": "Information",
                         "pages": [
-                            "/information",
-                            "/members",
-                            "/policies",
-                            "/terms-of-reference"
+                            "/players/information",
+                            "/players/members",
+                            "/players/policies",
+                            "/players/terms-of-reference"
                         ]
                     },
                     {
                         "group": "My Schedules",
                         "pages": [
-                            "calendar"
+                            "/players/schedules"
                         ]
                     },
                     {
                         "group": "My Patches",
                         "pages": [
-                            "chair"
+                            "/players/patches"
                         ]
                     },
                     {
@@ -65,7 +65,7 @@
                 ]
             },
             {
-                "tab": "Admin",
+                "tab": "Administration",
                 "icon": "calendar",
                 "groups": [
                     {
@@ -101,13 +101,13 @@
                     {
                         "group": "Repertoire",
                         "pages": [
-                            "/repertoire"
+                            "/repertoire/repertoire"
                         ]
                     },
                     {
                         "group": "Places",
                         "pages": [
-                            "/venues",
+                            "/venues/venues",
                             "/venues/education",
                             "/venues/education-institutions",
                             "/venues/rehearsal-venue-bookings"
@@ -132,7 +132,7 @@
                     {
                         "group": "Auditions",
                         "pages": [
-                            "/auditions",
+                            "/auditions/auditions",
                             "/auditions/send-message",
                             "/auditions/users",
                             "/auditions/history"
