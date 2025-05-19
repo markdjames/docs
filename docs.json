@@ -11,12 +11,8 @@
     "navigation": {
         "tabs": [
             {
-                "tab": "Dashboard",
-                "icon": "dashboard"
-            },
-            {
-                "tab": "Information",
-                "icon": "information",
+                "tab": "Players",
+                "icon": "dashboard",
                 "groups": [
                     {
                         "group": "Information",
@@ -26,21 +22,19 @@
                             "/policies",
                             "/terms-of-reference"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "My Schedules",
-                "icon": "calendar"
-            },
-            {
-                "tab": "My Patches",
-                "icon": "chair"
-            },
-            {
-                "tab": "Forms",
-                "icon": "form",
-                "groups": [
+                    },
+                    {
+                        "group": "My Schedules",
+                        "pages": [
+                            "calendar"
+                        ]
+                    },
+                    {
+                        "group": "My Patches",
+                        "pages": [
+                            "chair"
+                        ]
+                    },
                     {
                         "group": "Forms",
                         "pages": [
@@ -64,7 +58,6 @@
                         "pages": [
                             "/messages/send/message",
                             "/messages/inbox/messages",
-                            null,
                             "/messages/send/notice",
                             "/messages/inbox/notices"
                         ]
@@ -72,7 +65,7 @@
                 ]
             },
             {
-                "tab": "Schedule",
+                "tab": "Admin",
                 "icon": "calendar",
                 "groups": [
                     {
@@ -85,13 +78,7 @@
                             "/schedules/distribution-list",
                             "/schedules/distribution-list-members"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Grids",
-                "icon": "grid",
-                "groups": [
+                    },
                     {
                         "group": "Grids",
                         "pages": [
@@ -102,13 +89,7 @@
                             "/grids/master",
                             "/grids/archive"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Patches",
-                "icon": "chair",
-                "groups": [
+                    },
                     {
                         "group": "Patches",
                         "pages": [
@@ -116,25 +97,13 @@
                             "/personnel/patches/by-player",
                             "/personnel/patches/overview"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Repertoire",
-                "icon": "music",
-                "groups": [
+                    },
                     {
                         "group": "Repertoire",
                         "pages": [
                             "/repertoire"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Places",
-                "icon": "venue",
-                "groups": [
+                    },
                     {
                         "group": "Places",
                         "pages": [
@@ -143,13 +112,7 @@
                             "/venues/education-institutions",
                             "/venues/rehearsal-venue-bookings"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "People",
-                "icon": "people",
-                "groups": [
+                    },
                     {
                         "group": "People",
                         "pages": [
@@ -165,13 +128,7 @@
                             "/people/administrators",
                             "/people/users"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Auditions",
-                "icon": "tasks",
-                "groups": [
+                    },
                     {
                         "group": "Auditions",
                         "pages": [
@@ -180,13 +137,7 @@
                             "/auditions/users",
                             "/auditions/history"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Misc",
-                "icon": "tasks",
-                "groups": [
+                    },
                     {
                         "group": "Misc",
                         "pages": [
@@ -194,13 +145,7 @@
                             "/misc/edit-tags",
                             "/misc/alert-settings"
                         ]
-                    }
-                ]
-            },
-            {
-                "tab": "Reports",
-                "icon": "graph",
-                "groups": [
+                    },
                     {
                         "group": "Reports",
                         "pages": [
