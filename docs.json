@@ -1,102 +1,242 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
-  "name": "Philharmonia.mobi",
-  "colors": {
-    "primary": "#D61E28",
-    "light": "#FFF",
-    "dark": "#000"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "maple",
+    "name": "Philharmonia.mobi",
+    "colors": {
+        "primary": "#D61E28",
+        "light": "#FFF",
+        "dark": "#000"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Dashboard",
+                "icon": "dashboard"
+            },
+            {
+                "tab": "Information",
+                "icon": "information",
+                "groups": [
+                    {
+                        "group": "Information",
+                        "pages": [
+                            "/information",
+                            "/members",
+                            "/policies",
+                            "/terms-of-reference"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "My Schedules",
+                "icon": "calendar"
+            },
+            {
+                "tab": "My Patches",
+                "icon": "chair"
+            },
+            {
+                "tab": "Forms",
+                "icon": "form",
+                "groups": [
+                    {
+                        "group": "Forms",
+                        "pages": [
+                            "/forms/bonus-claim",
+                            "/forms/on-call-claim",
+                            "/forms/release-request",
+                            "/forms/back-on-request",
+                            "/forms/porterage-claim",
+                            "/forms/submissions",
+                            "/forms/status/release-status"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Message & Notices",
+                "icon": "mail",
+                "groups": [
+                    {
+                        "group": "Message & Notices",
+                        "pages": [
+                            "/messages/send/message",
+                            "/messages/inbox/messages",
+                            null,
+                            "/messages/send/notice",
+                            "/messages/inbox/notices"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Schedule",
+                "icon": "calendar",
+                "groups": [
+                    {
+                        "group": "Schedule",
+                        "pages": [
+                            "/schedules/concerts",
+                            "/schedules/education",
+                            "/schedules/print/conductor",
+                            "/schedules/print/management",
+                            "/schedules/distribution-list",
+                            "/schedules/distribution-list-members"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Grids",
+                "icon": "grid",
+                "groups": [
+                    {
+                        "group": "Grids",
+                        "pages": [
+                            "/grids/concerts",
+                            "/grids/rehearsals",
+                            "/grids/recordings",
+                            "/grids/education",
+                            "/grids/master",
+                            "/grids/archive"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Patches",
+                "icon": "chair",
+                "groups": [
+                    {
+                        "group": "Patches",
+                        "pages": [
+                            "/personnel/patches",
+                            "/personnel/patches/by-player",
+                            "/personnel/patches/overview"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Repertoire",
+                "icon": "music",
+                "groups": [
+                    {
+                        "group": "Repertoire",
+                        "pages": [
+                            "/repertoire"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Places",
+                "icon": "venue",
+                "groups": [
+                    {
+                        "group": "Places",
+                        "pages": [
+                            "/venues",
+                            "/venues/education",
+                            "/venues/education-institutions",
+                            "/venues/rehearsal-venue-bookings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "People",
+                "icon": "people",
+                "groups": [
+                    {
+                        "group": "People",
+                        "pages": [
+                            "/people/players",
+                            "/people/conductors",
+                            "/people/soloists",
+                            "/people/composers",
+                            "/people/workshop-leaders",
+                            "/people/artist-agents",
+                            "/people/venue-contacts",
+                            "/people/education-contacts",
+                            "/people/crew",
+                            "/people/administrators",
+                            "/people/users"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Auditions",
+                "icon": "tasks",
+                "groups": [
+                    {
+                        "group": "Auditions",
+                        "pages": [
+                            "/auditions",
+                            "/auditions/send-message",
+                            "/auditions/users",
+                            "/auditions/history"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Misc",
+                "icon": "tasks",
+                "groups": [
+                    {
+                        "group": "Misc",
+                        "pages": [
+                            "/misc/distribution-lists",
+                            "/misc/edit-tags",
+                            "/misc/alert-settings"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Reports",
+                "icon": "graph",
+                "groups": [
+                    {
+                        "group": "Reports",
+                        "pages": [
+                            "/reports/releases?type=release",
+                            "/reports/releases?type=back_on",
+                            "/reports/player",
+                            "/reports/unpatched",
+                            "/reports/venue-check"
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:markdjames@gmail.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://www.philharmonia.mobi"
         }
-      ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:markdjames@gmail.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://www.philharmonia.mobi"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
