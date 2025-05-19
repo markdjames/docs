@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "Philharmonia.mobi",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#D61E28",
+    "light": "#FFF",
+    "dark": "#000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -83,13 +83,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:markdjames@gmail.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://www.philharmonia.mobi"
     }
   },
   "footer": {
