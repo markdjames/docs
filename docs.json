@@ -11,6 +11,40 @@
     "navigation": {
         "tabs": [
             {
+                "tab": "Basics",
+                "icon": "dashboard",
+                "groups": [
+                    {
+                        "group": "Getting Started",
+                        "pages": [
+                            "/getting-started/registration",
+                            "/getting-started/logging-in",
+                            "/getting-started/dashboard",
+                            "/getting-started/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Profile",
+                        "pages": [
+                            "/profile/personal-details",
+                            "/profile/contact-details",
+                            "/profile/address",
+                            "/profile/contact-preferences",
+                            "/profile/emergency-contacts",
+                            "/profile/password",
+                            "/profile/administrator-details"
+                        ]
+                    },
+                    {
+                        "group": "File Management",
+                        "pages": [
+                            "/file-management/uploading-files",
+                            "/file-management/managing-files"
+                        ]
+                    }
+                ]
+            },
+            {
                 "tab": "Players",
                 "icon": "dashboard",
                 "groups": [
@@ -44,7 +78,7 @@
                             "/forms/back-on-request",
                             "/forms/porterage-claim",
                             "/forms/submissions",
-                            "/forms/status/release-status"
+                            "/forms/release-status"
                         ]
                     }
                 ]
@@ -56,10 +90,10 @@
                     {
                         "group": "Message & Notices",
                         "pages": [
-                            "/messages/send/message",
-                            "/messages/inbox/messages",
-                            "/messages/send/notice",
-                            "/messages/inbox/notices"
+                            "/messages/send-message",
+                            "/messages/send-notice",
+                            "/messages/messages-inbox",
+                            "/messages/notices-inbox"
                         ]
                     }
                 ]
@@ -69,12 +103,12 @@
                 "icon": "calendar",
                 "groups": [
                     {
-                        "group": "Schedule",
+                        "group": "Schedules",
                         "pages": [
                             "/schedules/concerts",
                             "/schedules/education",
-                            "/schedules/print/conductor",
-                            "/schedules/print/management",
+                            "/schedules/conductor",
+                            "/schedules/management",
                             "/schedules/distribution-list",
                             "/schedules/distribution-list-members"
                         ]
@@ -91,11 +125,11 @@
                         ]
                     },
                     {
-                        "group": "Patches",
+                        "group": "Personnel",
                         "pages": [
-                            "/personnel/patches",
-                            "/personnel/patches/by-player",
-                            "/personnel/patches/overview"
+                            "/personnel/patches-admin",
+                            "/personnel/patches-by-player",
+                            "/personnel/patches-overview"
                         ]
                     },
                     {
@@ -149,8 +183,7 @@
                     {
                         "group": "Reports",
                         "pages": [
-                            "/reports/releases?type=release",
-                            "/reports/releases?type=back_on",
+                            "/reports/releases",
                             "/reports/player",
                             "/reports/unpatched",
                             "/reports/venue-check"
@@ -161,8 +194,8 @@
         ]
     },
     "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg"
+        "light": "/assets/logo/philharmonia-logo-light.svg",
+        "dark": "/assets/logo/philharmonia-logo-dark.svg"
     },
     "navbar": {
         "links": [
@@ -178,10 +211,6 @@
         }
     },
     "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
+       
     }
 }
