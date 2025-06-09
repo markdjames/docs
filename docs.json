@@ -26,13 +26,13 @@
                     {
                         "group": "Profile",
                         "pages": [
-                            "/profile/personal-details",
-                            "/profile/contact-details",
-                            "/profile/address",
-                            "/profile/contact-preferences",
-                            "/profile/emergency-contacts",
-                            "/profile/password",
-                            "/profile/administrator-details"
+                            "/profile/personal-details-form",
+                            "/profile/contact-details-form",
+                            "/profile/address-form",
+                            "/profile/contact-preferences-form",
+                            "/profile/emergency-contact-form",
+                            "/profile/password-form",
+                            "/profile/administrator-details-form"
                         ]
                     },
                     {
@@ -142,7 +142,7 @@
                         "group": "Places",
                         "pages": [
                             "/venues/venues",
-                            "/venues/education",
+                            "/venues/education-venues",
                             "/venues/education-institutions",
                             "/venues/rehearsal-venue-bookings"
                         ]
