@@ -202,6 +202,33 @@
                             "/guides/users/editing-users-permissions",
                             "/guides/users/resetting-passwords"
                         ]
+                    },
+                    {
+                        "group": "Calls",
+                        "pages": [
+                            "/guides/calls/managing-calls"
+                        ]
+                    },
+                    {
+                        "group": "Schedules",
+                        "pages": [
+                            "/guides/schedules/publishing-schedules"
+                        ]
+                    },
+                    {
+                        "group": "Patches / Personnel",
+                        "pages": [
+                            "/guides/patches/managing-patches",
+                            "/guides/patches/publishing-personnel-lists"
+                        ]
+                    },
+                    {
+                        "group": "People",
+                        "pages": [
+                            "/guides/people/managing-administrators",
+                            "/guides/people/managing-artists",
+                            "/guides/people/managing-players"
+                        ]
                     }
                 ]
             }

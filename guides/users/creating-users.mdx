@@ -1,0 +1,30 @@
+---
+title: 'Creating a new user'
+description: 'How to add new users to the system'
+---
+
+# Creating a new user
+To create a new user, you need to have the appropriate permissions. If you are an administrator, you can add users directly from the admin interface.
+
+**Note:** This guide assumes you have access to the admin interface and the necessary permissions to create users.
+
+## Prerequisites
+1. Every user in Mobi must have an associated `Player` record in the database. This is due to historic design decisions that require a player record to be created before a user can be added.
+2. If the user is a member of the office staff, you should also ensure that they have a corresponding `Administrator` record in the database.
+
+## Steps to create a new user
+1. Once the `Player` record is created, navigate to the `People > Users` interface.
+2. Click on the "Add User" button.
+3. Fill in the required user details (e.g., username, email, etc.).
+4. Select the appropriate `Player` record from the dropdown list. This links the user to their player record.
+5. (optional) Select the appropriate `Administrator` record from the dropdown list. This links the user to their administrator record.
+6. Assign the appropriate permission level to the user. This determines the default sets of actions they can perform in the system (you can fine tune these later).
+7. Assign the user a temporary password. This will be used for their initial login.
+7. Click the "Create User" button to save the new user.
+
+## Post-Creation Steps
+After creating the user, you may want to:
+- **Notify the user**: Send them an email with their login details and instructions on how to access the system.
+- **Set up their profile**: Encourage them to log in and complete their profile information.
+- **Review permissions**: Ensure that the user has the appropriate permissions for their role. You can adjust these by editing the user record and clicking on the `Edit Permissions` link. For more information on permissions, see the [Permissions Guide](editing-users-permissions).
+
