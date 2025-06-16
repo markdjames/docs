@@ -190,6 +190,20 @@
                         ]
                     }
                 ]
+            },
+            {
+                "tab": "Guides",
+                "icon": "guide",
+                "groups": [
+                    {
+                        "group": "User Management",
+                        "pages": [
+                            "/guides/users/creating-users",
+                            "/guides/users/editing-users-permissions",
+                            "/guides/users/resetting-passwords"
+                        ]
+                    }
+                ]
             }
         ]
     },
