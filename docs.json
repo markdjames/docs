@@ -107,8 +107,6 @@
                         "pages": [
                             "/schedules/concerts",
                             "/schedules/education",
-                            "/schedules/conductor",
-                            "/schedules/management",
                             "/schedules/distribution-list",
                             "/schedules/distribution-list-members"
                         ]
@@ -225,8 +223,6 @@
                     {
                         "group": "People",
                         "pages": [
-                            "/guides/people/managing-administrators",
-                            "/guides/people/managing-artists",
                             "/guides/people/managing-players"
                         ]
                     }
