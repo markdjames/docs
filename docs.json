@@ -162,15 +162,6 @@
                         ]
                     },
                     {
-                        "group": "Auditions",
-                        "pages": [
-                            "/auditions/auditions",
-                            "/auditions/send-message",
-                            "/auditions/users",
-                            "/auditions/history"
-                        ]
-                    },
-                    {
                         "group": "Misc",
                         "pages": [
                             "/misc/distribution-lists",
